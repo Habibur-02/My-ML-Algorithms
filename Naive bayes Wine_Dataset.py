@@ -12,7 +12,7 @@ df['target_names']=df['target'].apply(lambda x:wine.target_names[x])
 df
 # df['target']=df['target'].map({'0':'asif','2':'janina'})
 # df
-def function(x):
+def function(x): #just for understand
     if x==0:
         return 'asif'
     elif x==1:
